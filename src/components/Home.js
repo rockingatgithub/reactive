@@ -3,7 +3,7 @@ import { PostsList } from './';
 
 class Home extends React.Component {
   render() {
-    console.log('this is post and prop', this.props);
+    // console.log('this is post and prop', this.props);
     const { posts } = this.props;
     return (
       <div>
